@@ -1,0 +1,31 @@
+.pagination-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.pagination-numbers {
+  display: flex;
+}
+
+.pagination-numbers button {
+  margin-right: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-numbers button.active {
+  font-weight: bold;
+}
+
+.page-size-input label {
+  margin-right: 5px;
+}
+
+.page-size-input input {
+  width: 50px;
+}

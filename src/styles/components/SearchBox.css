@@ -1,0 +1,40 @@
+.searchbox-wrapper {
+  display: flex;
+  gap: 4px;
+  width: 241px;
+  height: 38px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(206, 212, 218);
+  padding: 6px;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+.focused {
+  border-color: #7952b3;
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 25%);
+}
+
+.disabled {
+  background-color: rgb(233, 236, 239);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.input-box {
+  outline: none;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+}
+
+.keyboard-shortcut {
+  font-size: 12px;
+  border-radius: 2px;
+  padding: 0 4px;
+  height: 24px;
+  border: 1px solid rgb(222, 226, 230);
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+/* styles/components/TableBox.css */
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f8f9fa;
+}
+
+.country-flag {
+  margin-left: 8px;
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+}

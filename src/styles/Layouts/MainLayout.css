@@ -1,0 +1,10 @@
+.main-layout-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  margin: 12px;
+  border-radius: 6px;
+  height: calc(100vh - 24px);
+}
